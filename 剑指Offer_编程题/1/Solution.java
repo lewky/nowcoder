@@ -25,9 +25,9 @@ public class Solution {
         int k = 0;
         while(i >= 0){
             k = array[i].length;
-            if(j == k){
+            if(j >= k){
                 i--;
-                continue;
+				continue;
             }
             if(target == array[i][j]){
                 return true;
