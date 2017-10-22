@@ -19,7 +19,7 @@
 */
 
 public class Solution {
-    public static boolean find(int target, int [][] array) {
+    public boolean find(int target, int [][] array) {
         int i = array.length - 1;
         int j = 0;
         int k = 0;
@@ -39,12 +39,4 @@ public class Solution {
         }
         return false;
     }
-
-	public static void main(String[] args){
-		int[][] array = {{1,3,5}, {2,4}, {3,6,8,9}};
-		boolean flag = find(5,array);
-		System.out.println(flag);
-		flag = find(7,array);
-		System.out.println(flag);
-	}
 }
