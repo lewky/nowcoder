@@ -14,10 +14,9 @@ public class Solution {
             return null;
         }
         StringBuffer target = new StringBuffer("");
-        int i = 0;
 		int len = str.length();
         char c = ' ';
-        for(; i < len; i++){
+        for(int i = 0; i < len; i++){
             c = str.charAt(i);
             if(c != ' '){
                 target.append(c); 
@@ -31,7 +30,7 @@ public class Solution {
 	/*
 		看到其他朋友的解答，是直接调用String的replaceAll()
 		另外，replaceAll()支持正则表达式
-	*/
+	
 	public String replaceSpace(StringBuffer str) {
 		if(str == null){
             return null;
@@ -39,4 +38,5 @@ public class Solution {
 		String s = str.toString().replaceAll(" ", "%20");
 		return s;
 	}
+	*/
 }
