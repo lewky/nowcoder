@@ -17,3 +17,4 @@ It's my algorithm learning repository for nowcoder.
 |2|字符串|替换空格|
 |3|链表|从尾到头打印链表|
 |4|树|重建二叉树|
+|5|栈和队列|用两个栈实现队列|
