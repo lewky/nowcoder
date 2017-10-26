@@ -18,3 +18,4 @@ It's my algorithm learning repository for nowcoder.
 |3|链表|从尾到头打印链表|
 |4|树|重建二叉树|
 |5|栈和队列|用两个栈实现队列|
+|6|查找和排序|旋转数组的最小数字|
