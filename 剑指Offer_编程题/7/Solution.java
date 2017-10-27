@@ -3,7 +3,7 @@
 */
 
 /*
-	思路：递归
+	思路：递归是最常见的方式，另一种方式是循环
 */
 public class Solution {
     public int Fibonacci(int n) {
@@ -15,4 +15,23 @@ public class Solution {
         }
         return 0;
     }
+
+	//这是循环的方式
+	/*
+	public int Fibonacci(int n) {
+		int a = 1;
+        int b = 1;
+        int temp = 0;
+
+        if( n == 1 || n == 2)
+        	return 1;
+        while(n > 2){
+            n--;
+            temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return temp;
+    }
+	*/
 }
