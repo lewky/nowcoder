@@ -21,3 +21,4 @@ It's my algorithm learning repository for nowcoder.
 |6|查找和排序|旋转数组的最小数字|
 |7|递归和循环|斐波那契数列|
 |8|递归和循环|跳台阶|
+|9|递归和循环|变态跳台阶|
