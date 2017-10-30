@@ -22,3 +22,5 @@ It's my algorithm learning repository for nowcoder.
 |7|递归和循环|斐波那契数列|
 |8|递归和循环|跳台阶|
 |9|递归和循环|变态跳台阶|
+|10|递归和循环|矩形覆盖|
+|11|位运算|二进制中1的个数|
