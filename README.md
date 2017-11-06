@@ -26,3 +26,4 @@ It's my algorithm learning repository for nowcoder.
 |11|位运算|二进制中1的个数|
 |12|代码的完整性|数值的整数次方|
 |13|代码的完整性|调整数组顺序使奇数位于偶数前面|
+|14|代码的鲁棒性|链表中倒数第k个结点|
